@@ -14,7 +14,7 @@
 </p>
 
 <p align="center">
-  Projet final de Common Core — <br>
+  Projet final de Common Core<br>
   Réalisé en mai 2024
 </p>
 
@@ -150,7 +150,7 @@ Ouvrez votre navigateur et acceptez le certificat auto-signe :
 https://localhost:8080
 ```
 
-> **Note :** Le certificat SSL est genere automatiquement lors du build Docker. Votre navigateur affichera un avertissement de securite — cliquez sur **Avance** puis **Continuer vers le site**.
+> **Note :** Le certificat SSL est genere automatiquement lors du build Docker. Votre navigateur affichera un avertissement de securite. Cliquez sur **Avance** puis **Continuer vers le site**.
 
 ### Commandes utiles
 
@@ -210,9 +210,9 @@ Quatre joueurs sur le **meme clavier**, chacun avec une couleur distincte :
 
 ### Tournoi
 Format bracket a 4 joueurs :
-1. **Demi-finale 1** — Joueur 1 vs Joueur 2
-2. **Demi-finale 2** — Joueur 3 vs Joueur 4
-3. **Finale** — Les deux vainqueurs s'affrontent
+1. **Demi-finale 1**: Joueur 1 vs Joueur 2
+2. **Demi-finale 2**: Joueur 3 vs Joueur 4
+3. **Finale**: Les deux vainqueurs s'affrontent
 4. Classement final (1er, 2e, 3e) sauvegarde dans la base de donnees.
 
 ---
@@ -246,7 +246,7 @@ Le projet utilise **Docker Compose** pour orchestrer trois conteneurs :
 │                  │    WEB     │  Django + Gunicorn   │
 │                  │  (Django)  │  Port 8000           │
 │                  └─────┬──────┘                      │
-│                        │ psycopg2                   │
+│                        │ psycopg2                    │
 │                  ┌─────▼──────┐                      │
 │                  │     DB     │  PostgreSQL 15       │
 │                  │ (Postgres) │  Volume persistant   │
@@ -277,12 +277,12 @@ Ce projet presente certaines limitations techniques inherentes au contexte d'app
 
 ## Ameliorations futures
 
-- **Authentification OAuth 2.0** — Integration de l'authentification via l'API de l'ecole 42 pour simplifier l'inscription et la connexion.
-- **WebSocket en temps reel** — Remplacer le polling HTTP par Django Channels pour les parties multijoueur en ligne synchronisees.
-- **Refactor du modele de donnees** — Normaliser la base en separant les entites : `DuelResult`, `TournamentResult`, `Friendship`, `PlayerProfile`.
-- **Tests unitaires et d'integration** — Couverture de code avec `pytest` et `pytest-django`.
-- **CI/CD** — Pipeline d'integration continue (GitHub Actions) pour les tests automatiques et le deploiement.
-- **Systeme de traduction** — Adopter `gettext` ou une solution JS legere au lieu de tripler le HTML.
+- **Authentification OAuth 2.0** : Integration de l'authentification via l'API de l'ecole 42 pour simplifier l'inscription et la connexion.
+- **WebSocket en temps reel** : Remplacer le polling HTTP par Django Channels pour les parties multijoueur en ligne synchronisees.
+- **Refactor du modele de donnees** : Normaliser la base en separant les entites : `DuelResult`, `TournamentResult`, `Friendship`, `PlayerProfile`.
+- **Tests unitaires et d'integration** : Couverture de code avec `pytest` et `pytest-django`.
+- **CI/CD** : Pipeline d'integration continue (GitHub Actions) pour les tests automatiques et le deploiement.
+- **Systeme de traduction** : Adopter `gettext` ou une solution JS legere au lieu de tripler le HTML.
 
 ---
 
