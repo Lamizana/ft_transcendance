@@ -10,12 +10,11 @@
 <h1 align="center">ft_transcendance</h1>
 
 <p align="center">
-  <strong>Application web multijoueurs permettant de jouer à Pong en ligne, avec gestion de profils, statistiques, amis et tournois.</strong>
+  <strong>Projet final 42</strong>
 </p>
 
 <p align="center">
-  Projet final de Common Core<br>
-  Réalisé en mai 2024
+  <em>Application web multijoueurs permettant de jouer à Pong en ligne, avec gestion de profils, statistiques, amis et tournois</em>
 </p>
 
 ---
