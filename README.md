@@ -19,7 +19,7 @@
 <p>Créé en mai 2024 · Dernière mise à jour : 16/10/2026</p>
 
 <a href="https://lamizana.github.io/ZehdBox/projets/transcendance/">
-  <img src="https://img.shields.io/badge/Portfolio-Fiche%20du%20projet-8A2BE2?style=for-the-badge&logo=githubpages&logoColor=white" alt="Fiche du projet">
+  <img src="https://img.shields.io/badge/Portfolio-ZehdBox-8A2BE2?style=for-the-badge&logo=githubpages&logoColor=white" alt="Fiche du projet">
 </a>
 
 </div>
