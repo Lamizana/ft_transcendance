@@ -71,7 +71,7 @@ Le rendu du jeu s'effectue directement sur un **Canvas HTML5** en Vanilla JavaSc
 
 | Ressource | Lien |
 | --- | --- |
-| *Fiche du projet (portfolio)* | [ZehdBox](https://lamizana.github.io/ZehdBox/projets/transcendance/){:target="_blank"}|
+| *Fiche du projet (portfolio)* | [ZehdBox](https://lamizana.github.io/ZehdBox/projets/transcendance/)|
 | *Documentation technique* | [`docs/`](docs/) |
 
 ---
