@@ -349,3 +349,11 @@ Carnet d'apprentissage Web : naissance du Web, langages client et serveur, bases
 - [Site](https://lamizana.github.io/ZehdBox/)
 - [GitHub](https://github.com/Lamizana)
 - [Contact](https://lamizana.github.io/ZehdBox/contact/)
+
+---
+
+<div align="center">
+
+*Ce projet a été réalisé conformément à la norme et au sujet officiel de 42.*
+
+</div>
